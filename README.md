@@ -27,7 +27,6 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/queen-doris/Fleet_management_system_fastAPI.git
-cd fMS_fastAPI
 ```
 
 ### 2. Install Dependencies
@@ -52,7 +51,7 @@ python main.py
 ### 5. Start the Application
 Run the FastAPI server using Uvicorn:
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 The application will be available at `http://127.0.0.1:8000`.
