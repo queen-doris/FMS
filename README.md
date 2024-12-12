@@ -27,37 +27,43 @@ Ensure you have the following installed:
 ### 1. Clone the Repository
 ```bash
 git https://github.com/queen-doris/Fleet_management_system_fastAPI.git
-cd app
+
 ```
 
-### 2. Install Dependencies
+### 2. Create a virtual environment
+```
+use the command: python -m venv [env-name]
+
+```
+
+### 3. Install Dependencies
 Install the required Python libraries from the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Configure the Database
+### 4. Configure the Database
 Ensure your PostgreSQL server is running and a database named `fleet_db` exists. Update the `DATABASE_URL` in `database.py` if necessary:
 
 ```python
 DATABASE_URL = "postgresql://<username>:<password>@localhost:5432/fleet_db"
 ```
 
-### 4. Run Database Migrations
+### 5. Run Database Migrations
 Automatically create tables in the database:
 ```bash
 python main.py
 ```
 
-### 5. Start the Application
+### 6. Start the Application
 Run the FastAPI server using Uvicorn:
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 The application will be available at `http://127.0.0.1:8000`.
 
-### 6. Access the API Documentation
+### 7. Access the API Documentation
 FastAPI automatically generates interactive API documentation. Access it at:
 - Swagger UI: `http://127.0.0.1:8000/docs`
 
