@@ -33,8 +33,9 @@ git clone https://github.com/queen-doris/Fleet_management_system_fastAPI.git
 
 
 ### 2. Create a virtual environment
-```
-use the command: python -m venv [env-name]
+```bash
+
+python -m venv [env-name]
 
 ```
 
