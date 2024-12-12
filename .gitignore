@@ -1,3 +1,8 @@
+
+# Virtual environment
+venv/
+env/
+
 # Secrets and environment files
 .env
 *.key
