@@ -26,14 +26,11 @@ Ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-<<<<<<< HEAD
-git https://github.com/queen-doris/Fleet_management_system_fastAPI.git
+
+git clone https://github.com/queen-doris/Fleet_management_system_fastAPI.git
 
 =======
-git clone https://github.com/queen-doris/Fleet_management_system_fastAPI.git
-cd fMS_fastAPI
->>>>>>> 3ab739b45e4249368adfb1011a18d9efba4776ac
-```
+
 
 ### 2. Create a virtual environment
 ```
