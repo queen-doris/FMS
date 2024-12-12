@@ -26,8 +26,8 @@ Ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/queen-doris/FMS.git
-cd fMS_fastAPI
+git https://github.com/queen-doris/Fleet_management_system_fastAPI.git
+cd app
 ```
 
 ### 2. Install Dependencies

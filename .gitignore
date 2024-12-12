@@ -1,12 +1,3 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*.so
-
-# Virtual environment
-venv/
-env/
-
 # Secrets and environment files
 .env
 *.key
